@@ -1,0 +1,25 @@
+{
+  "name": "v2ray-clash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "npm i && zip -r code.zip ./*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/43EVER/v2ray-clash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/43EVER/v2ray-clash/issues"
+  },
+  "homepage": "https://github.com/43EVER/v2ray-clash#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "base-64": "^1.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}
